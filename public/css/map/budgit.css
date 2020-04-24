@@ -1,0 +1,280 @@
+body{background: #fff !important;}
+
+header{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header .top-nav {
+    float: right;
+    text-align: right;
+    margin-top: 30px;
+    transition: all 0.2s ease 0s;
+}
+
+
+header .top-nav > li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    list-style: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header .top-nav > li a{
+    padding: 3px 15px;
+    font-size: 13px;
+    color: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    transition: all 0.2s ease 0s;
+    display: block;
+    text-decoration: none;
+    outline: medium none;
+}
+
+header .top-nav > li a:hover{
+    padding: 3px 15px;
+    font-size: 13px;
+    color:#369494;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    transition: all 0.2s ease 0s;
+    display: block;
+    text-decoration: none;
+    outline: medium none;
+}
+
+
+
+.logo img{
+    width:200px;
+    margin-top: 5px;
+    height: auto;
+}
+
+
+/*Nigerian Map*/
+#map{
+    margin-top: 70px;
+}
+
+#map path:hover, path:focus {
+    fill: #F7CA18;
+}
+
+.point {
+  
+}
+
+/*Election  Map*/
+#rate{
+    margin-top: 70px;
+}
+
+#rate path:hover, path:focus {
+    fill: #F7CA18;
+}
+
+
+/*Ends here*/
+
+/*Left div*/
+.state{
+    top: 25px;
+    left:0;
+    display: block;
+}
+
+.state h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFBF00;
+    border-bottom: 1px solid #CBCBCB;
+    line-height: 50px;
+}
+
+.state p.areatitle {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px 0px 0px;
+    padding: 0px;
+    color: #B2B2B2;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.state p.areapop{
+    font-size: 26px;
+    font-weight: 300;
+    color: #666;
+    border-bottom: 1px solid #CBCBCB;
+    line-height: 30px;
+    margin: 0px;
+    padding: 3px 0px 10px;
+}
+
+/*section display*/
+.secdiv{
+    
+}
+
+.secleft h3{
+    color:#0BB951;
+
+
+}
+
+.secright{
+    margin-right: -100px;
+}
+
+.secright{
+    color: #0BB951;
+}
+
+.insec{
+
+}
+
+.lightgrey{
+    width: 196px;
+    height: 40px;
+    font-weight: 300;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    color: #B2B2B2;
+}
+
+.darkgrey{
+    width: 196px;
+    height: 40px;
+    font-weight: 300;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    color: #313131;
+}
+
+.downloads{
+    width: 100%;
+    height: 300px;
+    background-color: #ecf0f1;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 20px;
+    
+}
+
+#center{
+    text-align: center;
+     color:#0BB951;
+    font-weight: 100;
+}
+
+#center1{
+     color:#0BB951;
+    font-weight: 100;
+}
+
+
+.down1{
+    color: #B2B2B2;
+    background-color: #fff;
+     height: 30px;
+}
+
+.down2{
+    color: #B2B2B2;
+     height: 30px;
+}
+
+.content{
+    height: 700px;
+    background-color: inherit;
+    padding: 20px;
+
+}
+
+/*----------------------------------*\
+            Candidates css
+\*----------------------------------*/
+
+.pp{
+    font-size: 30px;
+    color: #EF4836;
+
+}
+
+.pp a{
+    text-decoration: none;
+    color: #EF4836;
+
+}
+
+.pp a:hover{
+    text-decoration: none;
+    color: #EF4836;
+
+}
+
+.pp a:focus{
+    text-decoration: none;
+    color: #EF4836;
+
+}
+
+.pdp{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: url("/img/gej.jpg");
+    background-size: contain;
+    width: 100px;
+    height: 130px;
+}
+
+.apc{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: url("/img/gmb.jpg");
+    background-size:contain;
+    width: 100px;
+    height: 130px;
+}
+
+.mobile{
+    width: 100% !important;
+    display: block;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.mobile > li {
+    display: block;
+    border-width: 1px 1px 0px;
+    border-style: solid solid none;
+    border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    height: auto;
+    color: #0BB951;
+}
+
+.kmg img{
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-top: -60px;
+}
